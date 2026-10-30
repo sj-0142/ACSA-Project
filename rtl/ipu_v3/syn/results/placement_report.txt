@@ -1,0 +1,13 @@
+IPU v3 placement view (not P&R)
+die 1343.0 x 741.2 um = 0.995 mm^2
+macro outline 1121.8 x 701.2 um (aspect assumed 1.6)
+logic region 161.1 x 700.0 um, 500 rows, utilization target 0.65
+standard cells placed 38688 / 38688, cell area 71126 um^2
+  ipu_pipe (score datapath)         16972 cells     30623 um^2  211 rows
+  ipu_psel (prefill selection)       9616 cells     15311 um^2  106 rows
+  ipu_wr_eng + W buffer              3125 cells      8484 um^2   59 rows
+  ipu_rd_eng                         1411 cells      3950 um^2   28 rows
+  ipu_seq_fsm                        2406 cells      4360 um^2   30 rows
+  ipu_csr                            1583 cells      3464 um^2   24 rows
+  ipu_issue                           372 cells       947 um^2    7 rows
+  top glue                           3203 cells      3987 um^2   28 rows

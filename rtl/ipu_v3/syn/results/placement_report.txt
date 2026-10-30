@@ -1,0 +1,21 @@
+IPU v3 placement view (not P&R)
+die 1627.3 x 619.7 um = 1.009 mm^2
+macro openram45_256x512_1r1w: LEF 1587.345 x 495.535 um, GDS bbox 1587.345 x 495.735 um
+  pins din0  x   123.2.. 1584.8  y    1.0..   1.2  (512)
+  pins dout1 x   158.9..  759.4  y  488.2.. 488.3  (512)
+  pins addr0 x   117.5..  117.7  y  131.2.. 148.9  (8)
+  pins addr1 x   802.0..  802.1  y   75.6..  93.3  (8)
+  pins clk0  x     6.2..    6.4  y   74.4..  74.6  (1)
+  pins clk1  x   913.3..  913.4  y  494.3.. 494.4  (1)
+  pins csb0  x     0.3..    0.4  y   74.4..  74.5  (1)
+  pins csb1  x   919.2..  919.4  y  494.4.. 494.5  (1)
+logic strip 1587.3 x 74.2 um above the macro (halo 10.0 um), 53 rows, utilization target 0.65
+standard cells placed 38688 / 38688, cell area 71126 um^2
+  ipu_psel                   9616 cells     15311 um^2  column x     0.0..  331.2  50 rows
+  ipu_pipe                  16972 cells     30623 um^2  column x   335.2..  993.3  50 rows
+  ipu_wr_eng + W buffer      3125 cells      8484 um^2  column x   997.3.. 1182.6  50 rows
+  top glue                   3203 cells      3987 um^2  column x  1186.6.. 1275.9  49 rows
+  ipu_seq_fsm                2406 cells      4360 um^2  column x  1279.9.. 1377.2  49 rows
+  ipu_rd_eng                 1411 cells      3950 um^2  column x  1381.2.. 1469.7  49 rows
+  ipu_issue                   372 cells       947 um^2  column x  1473.7.. 1498.0  45 rows
+  ipu_csr                    1583 cells      3464 um^2  column x  1502.0.. 1580.1  49 rows

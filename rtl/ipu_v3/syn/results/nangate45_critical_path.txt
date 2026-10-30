@@ -1,0 +1,31 @@
+ABC: + source /home/user/sj-0142/acsa-project/rtl/ipu_v3/syn/abc_timing.abc 
+ABC: WireLoad = "none"  Gates =  37721 ( 10.5 %)   Cap =  3.2 ff (  0.8 %)   Area =    46423.91 ( 95.8 %)   Delay =  1116.95 ps  (  3.7 %)               
+ABC: Path  0 --    4484 : 0    3 pi        A =   0.00  Df =   0.0   -0.0 ps  S =   0.0 ps  Cin =  0.0 ff  Cout =   4.3 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --   34021 : 1    2 INV_X1    A =   0.53  Df =  12.5   -6.3 ps  S =  10.0 ps  Cin =  1.6 ff  Cout =   3.3 ff  Cmax =  60.7 ff  G =  195  
+ABC: Path  2 --   34022 : 3    6 OAI21_X1  A =   1.06  Df =  73.9  -11.5 ps  S =  57.0 ps  Cin =  1.6 ff  Cout =  10.0 ff  Cmax =  26.1 ff  G =  606  
+ABC: Path  3 --   34081 : 4    4 NAND4_X1  A =   1.33  Df = 124.0  -21.1 ps  S =  29.1 ps  Cin =  1.6 ff  Cout =   5.9 ff  Cmax =  56.0 ff  G =  358  
+ABC: Path  4 --   34083 : 3    2 OAI21_X1  A =   1.06  Df = 181.7  -42.8 ps  S =  38.9 ps  Cin =  1.6 ff  Cout =   6.1 ff  Cmax =  26.1 ff  G =  361  
+ABC: Path  5 --   34084 : 3    2 AOI21_X2  A =   1.86  Df = 202.7  -26.7 ps  S =  23.3 ps  Cin =  3.1 ff  Cout =   4.1 ff  Cmax =  50.7 ff  G =  131  
+ABC: Path  6 --   34085 : 3    2 OAI21_X1  A =   1.06  Df = 248.1  -46.8 ps  S =  30.2 ps  Cin =  1.6 ff  Cout =   4.3 ff  Cmax =  26.1 ff  G =  255  
+ABC: Path  7 --   34086 : 3    2 AOI21_X1  A =   1.06  Df = 272.9  -26.0 ps  S =  33.0 ps  Cin =  1.6 ff  Cout =   4.1 ff  Cmax =  25.3 ff  G =  259  
+ABC: Path  8 --   34087 : 3    2 OAI21_X1  A =   1.06  Df = 319.1  -44.0 ps  S =  30.2 ps  Cin =  1.6 ff  Cout =   4.3 ff  Cmax =  26.1 ff  G =  255  
+ABC: Path  9 --   34088 : 3    2 AOI21_X1  A =   1.06  Df = 348.1  -17.6 ps  S =  41.2 ps  Cin =  1.6 ff  Cout =   5.9 ff  Cmax =  25.3 ff  G =  371  
+ABC: Path 10 --   34089 : 3    3 OAI21_X2  A =   1.86  Df = 386.4  -29.6 ps  S =  22.1 ps  Cin =  3.1 ff  Cout =   5.0 ff  Cmax =  52.1 ff  G =  157  
+ABC: Path 11 --   34090 : 3    2 AND3_X1   A =   1.33  Df = 435.2  -38.3 ps  S =  12.4 ps  Cin =  0.9 ff  Cout =   2.6 ff  Cmax =  60.4 ff  G =  272  
+ABC: Path 12 --   34093 : 3    3 OAI21_X1  A =   1.06  Df = 455.6  -15.5 ps  S =  33.7 ps  Cin =  1.6 ff  Cout =   5.0 ff  Cmax =  26.1 ff  G =  295  
+ABC: Path 13 --   34094 : 4    4 AOI211_X1 A =   1.33  Df = 534.5  -63.7 ps  S =  65.7 ps  Cin =  1.6 ff  Cout =   5.7 ff  Cmax =  14.5 ff  G =  363  
+ABC: Path 14 --   34095 : 4    2 OAI211_X1 A =   1.33  Df = 573.0  -60.7 ps  S =  25.0 ps  Cin =  1.6 ff  Cout =   2.6 ff  Cmax =  25.6 ff  G =  156  
+ABC: Path 15 --   34099 : 4    2 AOI211_X1 A =   1.33  Df = 635.3  -99.3 ps  S =  53.8 ps  Cin =  1.6 ff  Cout =   4.0 ff  Cmax =  14.5 ff  G =  244  
+ABC: Path 16 --   34105 : 3    4 OAI21_X2  A =   1.86  Df = 660.3  -86.4 ps  S =  26.0 ps  Cin =  3.1 ff  Cout =   6.7 ff  Cmax =  52.1 ff  G =  200  
+ABC: Path 17 --   34106 : 4    3 AOI211_X1 A =   1.33  Df = 729.2 -130.5 ps  S =  55.4 ps  Cin =  1.6 ff  Cout =   4.3 ff  Cmax =  14.5 ff  G =  262  
+ABC: Path 18 --   34107 : 4    3 NAND4_X1  A =   1.33  Df = 773.9 -143.9 ps  S =  25.0 ps  Cin =  1.6 ff  Cout =   4.2 ff  Cmax =  56.0 ff  G =  261  
+ABC: Path 19 --   34108 : 4    4 NOR4_X1   A =   1.33  Df = 903.2 -252.4 ps  S =  82.6 ps  Cin =  1.6 ff  Cout =   5.9 ff  Cmax =  10.5 ff  G =  358  
+ABC: Path 20 --   34109 : 4    2 NAND4_X1  A =   1.33  Df = 945.0 -265.3 ps  S =  23.3 ps  Cin =  1.6 ff  Cout =   3.4 ff  Cmax =  56.0 ff  G =  198  
+ABC: Path 21 --   34111 : 2    3 NOR2_X1   A =   0.80  Df = 991.8 -296.3 ps  S =  31.5 ps  Cin =  1.6 ff  Cout =   5.0 ff  Cmax =  26.7 ff  G =  305  
+ABC: Path 22 --   34112 : 2    2 AND2_X2   A =   1.33  Df =1032.5 -304.9 ps  S =  12.3 ps  Cin =  1.6 ff  Cout =   6.8 ff  Cmax = 120.8 ff  G =  392  
+ABC: Path 23 --   44579 : 1   10 BUF_X4    A =   1.86  Df =1061.9 -306.4 ps  S =  13.6 ps  Cin =  3.2 ff  Cout =  18.6 ff  Cmax = 242.3 ff  G =  541  
+ABC: Path 24 --   44585 : 1   10 BUF_X4    A =   1.86  Df =1090.9 -308.0 ps  S =  12.8 ps  Cin =  3.2 ff  Cout =  17.1 ff  Cmax = 242.3 ff  G =  488  
+ABC: Path 25 --   44611 : 2    1 NOR2_X1   A =   0.80  Df =1099.7 -294.6 ps  S =  15.3 ps  Cin =  1.6 ff  Cout =   1.7 ff  Cmax =  26.7 ff  G =   98  
+ABC: Path 26 --   44612 : 3    1 OAI21_X1  A =   1.06  Df =1116.9 -300.9 ps  S =  10.7 ps  Cin =  1.6 ff  Cout =   0.0 ff  Cmax =  26.1 ff  G =    0  
+ABC: Start-point = pi4483 (\u_pipe.word2 [158]).  End-point = po4501 ($auto$rtlil.cc:2609:MuxGate$155737).
+ABC: + write_blif /tmp/yosys-abc-MYLBJO/output.blif 

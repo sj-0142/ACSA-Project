@@ -1,0 +1,47 @@
+
+23. Printing statistics.
+
+=== ipu_top ===
+
+   Number of wires:              41254
+   Number of wire bits:          49961
+   Number of public wires:         310
+   Number of public wire bits:    8750
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              42123
+     AND2_X1                       874
+     AND3_X1                       208
+     AND4_X1                       155
+     AOI211_X1                     482
+     AOI21_X1                     4282
+     AOI221_X1                     194
+     AOI222_X1                      47
+     AOI22_X1                      793
+     DFFR_X1                       599
+     DFFS_X1                        16
+     DFF_X1                       5374
+     INV_X1                       2496
+     MUX2_X1                      8557
+     NAND2_X1                     3237
+     NAND3_X1                      780
+     NAND4_X1                      402
+     NOR2_X1                      3372
+     NOR3_X1                       769
+     NOR4_X1                       274
+     OAI211_X1                     754
+     OAI21_X1                     4067
+     OAI221_X1                     124
+     OAI222_X1                       7
+     OAI22_X1                      430
+     OAI33_X1                       16
+     OR2_X1                        826
+     OR3_X1                        202
+     OR4_X1                         74
+     XNOR2_X1                     1909
+     XOR2_X1                       802
+     openram45_256x512_1r1w          1
+
+   Chip area for module '\ipu_top': 859092.614575
+
